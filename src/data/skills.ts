@@ -15,7 +15,6 @@ export const skills: Skill[] = [
   { name: "Redux", icon: "◈", years: 5, color: "#764ABC" },
   { name: "Tailwind CSS", icon: "🎨", years: 4, color: "#38BDF8" },
   { name: "Material UI", icon: "M", years: 4, color: "#007FFF" },
-  { name: "Ant Design", icon: "A", years: 4, color: "#0170FE" },
   { name: "MySQL", icon: "🐬", years: 4, color: "#4479A1" },
   { name: "AWS", icon: "☁️", years: 4, color: "#FF9900" },
 ];
@@ -30,7 +29,6 @@ export const expertise = [
   "Redux Toolkit",
   "Tailwind CSS",
   "Material UI",
-  "Ant Design",
   "MySQL",
   "AWS",
   "HTML",

@@ -77,7 +77,7 @@ export const projects: Project[] = [
     title: "Bamrec",
     description:
       "Platform helping parents and organizers cultivate confidence, character, and creativity in children through engaging activities. Activity browsing filtered by age criteria for parents and organizers.",
-    techStack: ["React.js", "Redux", "TypeScript", "Ant Design", "CSS"],
+    techStack: ["React.js", "Redux", "TypeScript", "CSS"],
     image: "/projects/bamrec.jpg",
     gradient: "from-amber-500/40 via-yellow-500/20 to-orange-500/40",
     liveUrl: "#",
@@ -89,7 +89,7 @@ export const projects: Project[] = [
     title: "Office Management System",
     description:
       "Comprehensive web application managing office services — daily attendance, task management, project tracking, access control, leave management, and company payroll system.",
-    techStack: ["React.js", "Redux", "Node.js", "MySQL", "Ant Design"],
+    techStack: ["React.js", "Redux", "Node.js", "MySQL"],
     image: "/projects/oms.jpg",
     gradient: "from-emerald-500/40 via-teal-500/20 to-cyan-500/40",
     liveUrl: "#",

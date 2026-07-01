@@ -67,35 +67,6 @@ export function Hero() {
                 <Coffee className="h-4 w-4" />
                 Coffee with me
               </a>
-              <a
-                href={personal.resumePath}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex w-full items-center justify-center gap-2 rounded-full py-2.5 text-sm font-medium text-muted transition-colors hover:text-primary sm:w-auto sm:justify-start sm:px-2"
-              >
-                <Download className="h-4 w-4" />
-                Resume
-              </a>
-            </div>
-
-            {/* Stats */}
-            <div className="mt-8 grid grid-cols-2 gap-2.5 sm:mt-10 sm:grid-cols-4 sm:gap-3">
-              {stats.map((stat, i) => (
-                <motion.div
-                  key={stat.label}
-                  initial={{ opacity: 0, y: 12 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.3 + i * 0.06 }}
-                  className="hero-stat-card rounded-xl px-3 py-3 text-center sm:rounded-2xl sm:px-4 sm:py-4"
-                >
-                  <p className="text-xl font-bold text-primary sm:text-2xl">
-                    <CountUp end={stat.value} suffix={stat.suffix} />
-                  </p>
-                  <p className="mt-0.5 text-[10px] leading-tight text-muted sm:text-[11px]">
-                    {stat.label}
-                  </p>
-                </motion.div>
-              ))}
             </div>
           </motion.div>
 
