@@ -8,9 +8,34 @@ export interface Project {
   liveUrl: string;
   githubUrl: string;
   featured: boolean;
+  role?: string;
+  period?: string;
+  recent?: boolean;
 }
 
 export const projects: Project[] = [
+  {
+    id: "xstack",
+    title: "Xstack",
+    description:
+      "Led frontend development for the Xstack platform over 10 months — building responsive, production-grade interfaces with reusable component libraries. Delivered feature-rich dashboards, optimized rendering performance, integrated REST APIs, and collaborated with design and backend teams to ship reliable user experiences at scale.",
+    techStack: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "REST APIs",
+    ],
+    image: "/projects/xstack.jpg",
+    gradient: "from-violet-500/40 via-orange-500/20 to-amber-500/40",
+    liveUrl: "#",
+    githubUrl: "#",
+    featured: true,
+    role: "Frontend Developer",
+    period: "10 months · Recent",
+    recent: true,
+  },
   {
     id: "orchestro-ai",
     title: "Orchestro.AI",

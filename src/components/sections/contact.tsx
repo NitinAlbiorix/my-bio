@@ -27,21 +27,6 @@ export function Contact() {
 
         <div className="grid gap-12 lg:grid-cols-2">
           <RevealOnScroll>
-            <ol className="space-y-4 text-base text-muted">
-              <li className="flex gap-3">
-                <span className="font-bold text-primary">1.</span>
-                Write a message for me below
-              </li>
-              <li className="flex gap-3">
-                <span className="font-bold text-primary">2.</span>
-                Your name
-              </li>
-              <li className="flex gap-3">
-                <span className="font-bold text-primary">3.</span>
-                Your email or phone number
-              </li>
-            </ol>
-
             <div className="mt-8 space-y-4">
               <a
                 href={`mailto:${personal.email}`}

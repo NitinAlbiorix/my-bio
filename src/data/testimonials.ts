@@ -31,7 +31,7 @@ export const highlights: Highlight[] = [
     id: "4",
     title: "Production-Ready Delivery",
     description:
-      "Shipped 6+ production applications spanning social media, IPTV streaming, office management, and enterprise acquisition systems.",
+      "Shipped 7+ production applications spanning SaaS platforms, social media, IPTV streaming, office management, and enterprise acquisition systems.",
     icon: "🚀",
   },
 ];

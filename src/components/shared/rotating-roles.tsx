@@ -31,7 +31,7 @@ export function RotatingRoles({ roles, variant = "default" }: RotatingRolesProps
     <p
       className={
         isHero
-          ? "mt-5 text-lg text-muted md:text-xl"
+          ? "mt-3 text-base text-muted sm:text-lg"
           : "mt-4 text-xl text-muted md:text-2xl"
       }
     >

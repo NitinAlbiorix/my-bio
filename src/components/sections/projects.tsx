@@ -37,9 +37,21 @@ export function Projects() {
                   </div>
 
                   <div className="flex-1">
-                    <h3 className="text-xl font-bold text-foreground">
-                      {project.title}
-                    </h3>
+                    <div className="flex flex-wrap items-center gap-2">
+                      <h3 className="text-xl font-bold text-foreground">
+                        {project.title}
+                      </h3>
+                      {project.recent && (
+                        <span className="rounded-full bg-primary/15 px-2.5 py-0.5 text-xs font-semibold text-primary">
+                          Recent
+                        </span>
+                      )}
+                    </div>
+                    {(project.role || project.period) && (
+                      <p className="mt-1 text-sm font-medium text-primary/90">
+                        {[project.role, project.period].filter(Boolean).join(" · ")}
+                      </p>
+                    )}
                     <p className="mt-2 text-sm leading-relaxed text-muted">
                       {project.description}
                     </p>

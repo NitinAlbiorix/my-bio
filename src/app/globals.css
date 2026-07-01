@@ -112,6 +112,49 @@ body {
   mask-image: radial-gradient(ellipse 80% 70% at 50% 50%, black, transparent);
 }
 
+.hero-vignette {
+  background: radial-gradient(
+    ellipse 70% 60% at 50% 50%,
+    transparent 30%,
+    var(--background) 100%
+  );
+}
+
+.hero-panel {
+  background: rgba(26, 29, 38, 0.7);
+  border: 1px solid rgba(255, 140, 66, 0.12);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+}
+
+.hero-orbit-hub {
+  touch-action: manipulation;
+}
+
+.hero-orbit-ring-slow {
+  pointer-events: none;
+}
+
+.hero-center-disc {
+  background: radial-gradient(
+    circle at 35% 30%,
+    rgba(255, 140, 66, 0.12) 0%,
+    rgba(26, 29, 38, 0.95) 55%,
+    rgba(15, 17, 23, 1) 100%
+  );
+  border: 2px solid rgba(255, 140, 66, 0.25);
+}
+
+.hero-stat-card {
+  background: rgba(26, 29, 38, 0.5);
+  border: 1px solid var(--border);
+  transition: border-color 0.25s ease;
+}
+
+.hero-stat-card:hover {
+  border-color: rgba(255, 140, 66, 0.25);
+}
+
 .gradient-border::before {
   display: none;
 }
